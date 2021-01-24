@@ -338,16 +338,10 @@ ul[class*="list"] {
 /* =========================PORTFOLIO=========================== */
 
 /*======Фильтр======*/
-.portfolio-general {
-    padding-top: 71px;
-    padding-bottom: 109px;
-}
-
 .filter-list {
     display: flex;
-    padding-bottom: 58px;
-    padding-left: 263px;
-    padding-right: 300px;
+    justify-content: center;
+    padding-bottom: 50px;
 }
 
 .filter-list-item:not(:last-child) {
@@ -367,10 +361,6 @@ ul[class*="list"] {
     color: var(--title-and-nav-font-color);
     background-color: var(--bg-color-secondary);
     cursor: pointer;
-}
-
-.web {
-    min-width: 129px;
 }
 
 .filter-btn:hover,
