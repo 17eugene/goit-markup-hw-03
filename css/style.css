@@ -9,7 +9,8 @@
     --bg-color-secondary: #F5F4FA;
     --common-font-size: 16px;
     --contact-footer-color: #ffffff99;
-    --border-color: #ECECEC;
+    --border-header-color: #ECECEC;
+    --border-items-color: #EEEEEE;
 }
 
 /*======Наследуемые стили======*/
@@ -55,7 +56,7 @@ img {
 
 .header{
     background: var(--main-color);
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--border-header-color);
 }
 
 .logo {
@@ -409,6 +410,7 @@ ul[class*="list"] {
     width: calc((100% - 60px ) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
+    border: 1px solid var(--border-items-color);
 }
 
 .portfolio-list-item:nth-child(3n) {
