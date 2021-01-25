@@ -59,7 +59,8 @@ img {
     border: 1px solid var(--border-header-color);
 }
 
-.logo {
+
+.logotype, .logotype-footer {
     font-family: 'Raleway';
     text-decoration: none;
     font-size: 26px;
@@ -68,9 +69,12 @@ img {
     color: var(--accent-color);
 }
 
+.logotype {
+    margin-right: 93px;
+}
+
 .logo-studio {
     color: var(--logo-studio-header-color);
-    margin-right: 93px;
 }
 
 .navigation-list-link,
@@ -184,7 +188,7 @@ img {
 }
 
 .features-list-title {
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 
     font-weight: 700;
     font-size: 14px;
@@ -281,6 +285,8 @@ img {
 .team-element {
     width: calc((100% - 90px) / 4);
     margin-right: 30px;
+    background: var(--main-color);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-element:nth-child(4n) {
@@ -288,13 +294,10 @@ img {
 }
 
 /*======Подвал======*/
-.footer .container {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
 .footer {
     background-color: var(--header-hero-footer-bg-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .logo-studio-footer {
@@ -325,7 +328,11 @@ img {
     color: var(--accent-color);
 }
 
-.contacts-footer-element {
+.contacts-footer-list {
+    margin-top: 9px;
+}
+
+.contacts-footer-element:not(:first-child) {
     margin-top: 9px;
 }
 
