@@ -425,5 +425,5 @@ ul[class*="list"] {
     padding-left: 24px;
     padding-right: 24px;
     border: 1px solid var(--border-items-color);
+    border-top: none;
 }
-
